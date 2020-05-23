@@ -1,0 +1,184 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+		    	"navigationBarBackgroundColor": "#fff",
+		    	"navigationStyle": "custom"
+		    }
+		}
+		,{
+		    "path" : "pages/login/register",
+		    "style" : {
+		    	"navigationStyle": "custom"
+		    }
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "FastSign",
+				"navigationBarBackgroundColor": "#eee",
+				"enablePullDownRefresh": true
+			}
+		}
+		,{
+            "path" : "pages/holder/holder",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/profile/profile",
+            "style" : {
+            	"navigationBarTitleText": "我的",
+            	"navigationStyle": "custom"
+            }
+        },
+		{
+		    "path" : "pages/profile/profileDetail/proDetail",
+		    "style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+		    "path" : "pages/profile/profileDetail/changeEmail",
+		    "style" : {
+				"navigationBarTitleText": "绑定邮箱"
+			}
+		},
+		{
+		    "path" : "pages/profile/profileDetail/changePassword",
+		    "style" : {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+		    "path" : "pages/profile/profileDetail/changeUsername",
+		    "style" : {
+				"navigationBarTitleText": "更改名字"
+			}
+		}
+        ,{
+            "path" : "pages/profile/coffee/coffee",
+            "style" : {
+            	"navigationBarTitleText": "赞助"
+            }
+        }
+        ,{
+            "path" : "pages/profile/connectus/connectus",
+            "style" : {
+            	"navigationBarTitleText": "联系他们"
+            }
+        }
+        ,{
+            "path" : "pages/service/service",
+            "style" : {
+            	"navigationStyle": "custom"
+            }
+        },
+		{
+		    "path" : "pages/service/message/message",
+		    "style" : {
+				"navigationStyle": "custom"
+			}
+		},{
+            "path" : "pages/service/message/messageDetail",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        },
+		{
+		    "path" : "pages/service/sign/sign",
+		    "style" : {
+				"navigationBarTitleText": "签到课程列表"
+			}
+		},
+		{
+		    "path" : "pages/service/sign/addCourse",
+		    "style" : {
+				"navigationBarTitleText": "添加课程"
+			}
+		}
+        ,{
+            "path" : "pages/service/sign/signAccount",
+            "style" : {
+				"navigationBarTitleText": "签到账号"
+			}
+        }
+        ,{
+            "path" : "pages/service/sign/editCourse",
+            "style" : {
+				"navigationBarTitleText": "编辑课程"
+			}
+        }
+        ,{
+            "path" : "pages/service/sign/addAccount",
+            "style" : {
+				"navigationBarTitleText": "添加账号"
+			}
+        }
+        ,{
+            "path" : "pages/service/sign/editAccount",
+            "style" : {
+				"navigationBarTitleText": "编辑账号"
+			}
+        }
+        ,{
+            "path" : "pages/profile/coffee/pay",
+            "style" : {
+				"navigationBarTitleText": "请喝咖啡"
+			}
+        }
+        ,{
+            "path" : "pages/index/update/update",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/profile/coffee/paycode",
+            "style" : {
+				"navigationBarTitleText": "扫码支付"
+			}
+        }
+        ,{
+            "path" : "pages/index/notice/notice",
+            "style" : {
+				"navigationBarTitleText": "公告"
+			}
+        }
+        ,{
+            "path" : "pages/service/code/code",
+            "style" : {
+				"navigationBarTitleText": "二维码生成器"
+			}
+        }
+        ,{
+            "path" : "pages/login/findPassword",
+            "style" : {
+				"navigationBarTitleText": "找回密码"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "FastSign",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},"tabBar": {
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/iconimg/index.png",
+			"selectedIconPath": "static/iconimg/index2.png"
+		}, {
+			"text": "服务",
+			"pagePath": "pages/service/service",
+			"iconPath": "static/iconimg/service.png",
+			"selectedIconPath": "static/iconimg/service2.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/profile/profile",
+			"iconPath": "static/iconimg/profile.png",
+			"selectedIconPath": "static/iconimg/profile2.png"
+		}],
+		"backgroundColor": "#fff",
+		"selectedColor": "#333333"
+	}
+}
